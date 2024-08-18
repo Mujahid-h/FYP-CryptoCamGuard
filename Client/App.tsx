@@ -1,8 +1,8 @@
 import React from 'react';
 import {StatusBar, StyleSheet, View, Text} from 'react-native';
-import Login from './src/components/Login'; // Adjust the path as needed
+import Login from './src/components/Login';
 
-function App(): React.JSX.Element {
+function App() {
   const showLogin = true; // Change this to false to show SignUp component
 
   return (
